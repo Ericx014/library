@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../Fonts/Roboto/Roboto-Medium.ttf);
+}
+
+* {
+    font-family: Roboto;
+}
+
+button {
+    background-color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.form-dialog {
+    border: 3px solid black;
+    padding: 10px;
+    width: fit-content;
+}
+
+.header {
+    font-size: 1.2rem;
+    padding-bottom: 1.5vh;
+}
+
+.input input {
+    display: block;
+    width: 300px;
+    height: 2.5vh;
+}
+
+.input {
+    padding-bottom: 1vh;
+}
+
+.checkbox-container {
+    padding-bottom: 0.5vh;
+}
+
+.book-card {
+    margin-top: 10px;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.button-container {
+    display: flex;
+    gap: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
