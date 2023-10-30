@@ -82,7 +82,6 @@ const createBookCard = (book) => {
             myLibrary.splice(index, 1);
         }
     })
-F
 
     title.textContent = `${book.title}`;
     author.textContent = `${book.author}`;
